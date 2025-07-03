@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Specific Gravity Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h2>Specific Gravity Calculator</h2>
+    <div class="input-group">
+        <label for="massAir">Mass in Air (grams):</label>
+        <input type="number" id="massAir" placeholder="Enter mass" step="any">
+    </div>
+    <div class="input-group">
+        <label for="massWater">Mass in Water (grams):</label>
+        <input type="number" id="massWater" placeholder="Enter mass" step="any">
+    </div>
+    <button onclick="calculateDensity()">Calculate Density</button>
+    <div id="result" class="result-box">Enter values to calculate</div>
+    <div class="beaker-area">
+        <svg id="beakerSVG" width="110" height="130" viewBox="0 0 110 130">
+            <!-- Conical beaker outline -->
+            <path d="M30 20 Q55 10 80 20 L95 110 Q55 125 15 110 L30 20 Z" fill="#f4f8fb" stroke="#223344" stroke-width="3"/>
+            <!-- Water surface (ellipse) -->
+            <ellipse id="waterLevel" cx="55" cy="40" rx="32" ry="8" fill="#e8f7f6" opacity="0.8"/>
+            <!-- Sample (circle) -->
+            <circle id="sampleCircle" cx="55" cy="35" r="13" fill="#FF6F61" stroke="#d35400" stroke-width="2"/>
+        </svg>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
