@@ -1,4 +1,4 @@
-# Specific Gravity Calculator (Mass in Air & Water)
+# Density calculator (Mass in Air & Water)
 
 A web tool to determine an object’s density using its mass in air and in water, applying a simple logic of division with an experimental design implementation.
 
