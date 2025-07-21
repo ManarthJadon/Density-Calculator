@@ -6,22 +6,21 @@ A web tool to determine an object’s density using its mass in air and in water
 
 ## 🚀 About
 
-This calculator uses the Archimedes principle:  
-By measuring mass in air and mass in water, it calculates density with a straightforward division, reflecting a classic experimental approach.
+This calculator allows you to find the density of an object by directly dividing its mass in air by its mass in water. The result is presented in g/cm³, reflecting a basic experimental approach.
 
 ---
 
 ## ⚗️ How It Works
 
 - **Inputs:**  
-  - Mass in air (g or kg)  
-  - Mass in water (g or kg)
+  - Mass in air (g)  
+  - Mass in water (g)
 
-- **Formula:**  
+- **Formula Used:**  
   \[
-  \text{Density} = \frac{\text{Mass in air}}{\text{Mass in air} - \text{Mass in water}} \times \text{Density of water}
+  \text{Density} = \frac{\text{Mass in air}}{\text{Mass in water}}
   \]
-  (Density of water = 1 g/cm³ or 1000 kg/m³)
+  *(Units: g/cm³)*
 
 ---
 
@@ -40,8 +39,6 @@ By measuring mass in air and mass in water, it calculates density with a straigh
 - `script.js` – Calculation logic
 
 ---
-
-
 
 *Thanks for visiting my project!*
 
